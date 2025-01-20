@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <h1>Joyeux Anniversaire, Speyer Nomenjanahary Daniel ! 🎉</h1>
-        <p>Tu es né le <strong>14 février 2005</strong>.</p>
+        <p>Tu es né le <strong>13 février 2005</strong>.</p>
         <p>Aujourd'hui, tu as <span id="age"></span> ans !</p>
         <div class="balloons">
             <div class="balloon red"></div>
