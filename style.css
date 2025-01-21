@@ -1,0 +1,76 @@
+/* Style général */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background: linear-gradient(to bottom, #000428, #004e92); /* Couleurs bleu-noir */
+    text-align: center;
+}
+
+/* En-tête */
+header {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.profile-container {
+    margin-top: 20px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+/* Section "À propos" */
+.about {
+    padding: 20px;
+}
+
+.about h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 1.2rem;
+}
+
+/* Section "Citations" */
+.quotes {
+    padding: 20px;
+}
+
+.quotes h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.quotes ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quotes li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Responsivité */
+@media (max-width: 768px) {
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+
+    .profile-photo {
+        width: 120px;
+        height: 120px;
+    }
+}
